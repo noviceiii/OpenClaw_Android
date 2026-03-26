@@ -96,12 +96,13 @@ echo "sdk.dir=$HOME/Android/Sdk" > local.properties
 ```
 
 The APK will be located at:
+
 ```TEXT
 app/build/outputs/apk/play/debug/app-play-debug.apk
 ```
 
 ## Step 3: Install & Connect on Android
-```bash
+
 1. Transfer the APK to your phone (scp, Tailscale, USB, etc.).
 2. Install the APK (allow "Unknown sources").
 3. Open OpenClaw Companion Node.
@@ -112,6 +113,7 @@ app/build/outputs/apk/play/debug/app-play-debug.apk
 6. The app will request pairing.
 
 ## Step 4: Approve the Node on Ubuntu
+```bash
 # List pending devices
 openclaw devices list
 
